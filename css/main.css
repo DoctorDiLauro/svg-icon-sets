@@ -1,5 +1,5 @@
 html {
-  font-family: "Overpass", sans-serif;
+  font-family: Overpass, sans-serif;
   color: #fff;
 }
 
@@ -11,28 +11,28 @@ section {
   background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
 }
 
-.btn-ghost {
-  border-color: rgba(255, 255, 255, 0.6);
+.btn {
+  border-color: rgba(255, 255, 255, .6);
   color: #fff;
 }
 
-.btn-ghost:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+.btn:hover {
+  background-color: rgba(255, 255, 255, .5);
   color: #ff5e3a;
   border-color: #fff;
 }
 
 .unit:nth-child(1),
-.unit:nth-child(2){
-  border-bottom: 3px solid rgba(255, 255, 255, 0.4);
+.unit:nth-child(2) {
+  border-bottom: 3px solid rgba(255, 255, 255, .4);
 }
 
 @media only screen and (min-width: 60em) {
 
   .unit:nth-child(1),
-  .unit:nth-child(2){
+  .unit:nth-child(2) {
     border-bottom: none;
-    border-right: 3px solid rgba(255, 255, 255, 0.4);
+    border-right: 3px solid rgba(255, 255, 255, .4);
   }
 
 }
